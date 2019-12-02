@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/comon.js">
+
+    </script>
+  </head>
+  <body>
+<main>
+  <article class="general">
+    <div class="general-block wrap">
+      <div class="data-1">
+
+
+      <h1>Подбор программы</h1>
+    <p>Заполните анкету и мы подберем программу питания для Вашего кота</p>
+
+  </div></div>
+
+    <section class="data" id="section-1">
+      <div class="wrap">
+
+
+      <div class="data-1" id="data-1">
+        <label class="custom-text">
+          <span class="label-text">Имя:*</span>
+    <input id='name' type="text" name="" value="" />
+
+
+    </label>
+    <label class="custom-text">
+      <span class="label-text">Вес(кг):*</span>
+    <input id='weightnow'type="number" name="" value="" />
+
+
+    </label>
+    <label class="custom-text">
+      <span class="label-text">Возраст(лет):</span>
+    <input id='yearold' type="number" name="" value="" />
+
+
+    </label>
+      </div>
+      <div class="data-2" id="data-2">
+        <label class="custom-radio-button">
+   <input id='weightloss' type="radio" name="1" value="" onclick="clik();" />
+   <span class="helping-el"></span>
+   <span class="label-text">Похудение</span>
+  </label>
+
+  <label class="custom-radio-button">
+<input id='mass' type="radio" name="1" value="" onclick="clik2();"/>
+<span class="helping-el"></span>
+<span class="label-text">Набор Массы</span>
+</label>
+<label class="custom-radio-button">
+<input id='council' type="radio" name="1" value="" onclick="clik3();"/>
+<span class="helping-el"></span>
+<span class="label-text">Не знаю (Нужен Ваш совет)</span>
+</label>
+
+
+      </div>
+      <div class="data-3">
+      <label id="weight" class="custom-number">
+        <span class="label-text">Желаемый&nbspвес:</span>
+    <input  id="weightwant" type="number" min="1" name="1" value="" />
+
+
+    </label>
+      </div>
+      </div>
+    </section>
+
+
+    <section class="data" id='section-2'>
+      <div class="wrap">
+      <span class='title-min'>Контактные данные (владельца кота)</span>
+      <div class="data-1" id="data-1">
+        <label class="custom-text">
+          <span class="label-text">E&nbsp-&nbspmail:*</span>
+    <input id='email' type="email" name="" value="" />
+
+
+    </label>
+
+      </div>
+      <div class="data-2" id="data-2">
+        <label class="custom-text">
+          <span class="label-text">Телефон:*</span>
+    <input id='phone' type="number" name="" value="" />
+
+
+    </label>
+      </div>
+      </div>
+    </section>
+
+
+    <section id='section-3'>
+      <div class="wrap">
+      <span class='title-min'>Комментарий </span>
+      <div class="data-1" id="data-1">
+        <label class="custom-text">
+
+      <textarea id='comments' maxlength="120" name="comment" value="Расскажите обо всех повадках кота"></textarea>
+
+
+      </label>
+
+      </div>
+      </div>
+    </section>
+    <section id='section-4'>
+      <div class="wrap">
+      <span class='title-min' >Дополнительно </span>
+
+      <div class="dop-block" id="data-2">
+        <label class="custom-checkbox-button">
+      <input id='sweetener' type="checkbox" name="1" value="" />
+      <span class="helping-el"></span>
+      <span class="label-text">Сахарозаменитель</span>
+      </label>
+      <label class="custom-checkbox-button">
+      <input id='water' type="checkbox" name="1" value="" />
+      <span class="helping-el"></span>
+      <span class="label-text">Питьевая вода</span>
+      </label>
+      <label class="custom-checkbox-button">
+      <input id='milk' type="checkbox" name="1" value="" />
+      <span class="helping-el"></span>
+      <span class="label-text">Молоко</span>
+      </label>
+      <label class="custom-checkbox-button">
+      <input id='vitamins' type="checkbox" name="1" value="" />
+      <span class="helping-el"></span>
+      <span class="label-text">Витамины</span>
+      </label>
+      </div>
+      <div class="dop-block-2" id="data-2">
+      <input id='button-s' type="submit" value="Отправить заявку" onclick="send()"> <span class="submit-text">* - Обязательные поля</span>
+       </div></div>
+    </section>
+</article>
+
+</main>
+  </body>
+</html>

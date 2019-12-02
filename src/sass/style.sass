@@ -1,0 +1,231 @@
+@import 'part'
+
+
+.wrap, .data .wrap
+  max-width: 1220px
+  width: 100%
+  margin: auto
+  position: relative
+  border: none
+
+.data div
+  position: relative
+  display: inline-block
+  width: 46%
+  padding-bottom: 5px
+  border: 1px solid #d6d6d6
+
+
+.general-block
+  padding: 0px 0px
+
+.general-block p
+  width: 100%
+  max-width: 350px
+  line-height: 1.4em
+  text-transform: uppercase
+
+.data .data-1
+
+  float: left
+  padding-bottom: 0px
+  border: none
+
+#section-2 .data-2
+  border: none
+
+
+#section-2 .data-2 label
+  margin: 0px
+
+
+.data .data-2
+  float: right
+.data .data-3
+      border: none
+      float: right
+      margin-top: 10px
+
+// Стили для Radio кнопок
+
+label.custom-radio-button input[type="radio"]
+  opacity: 0
+  margin: 0px
+
+
+label.custom-radio-button input[type="radio"] ~ .helping-el
+    background-color: #FFFFFF
+    border: 1px solid #d6d6d6
+    border-radius: 50%
+    display: inline-block
+    margin-right: 20px
+    padding: 20px
+    position: relative
+    top: 14px
+
+
+label.custom-radio-button input[type="radio"]:checked ~ .helping-el
+    border: 1px solid #d6d6d6
+
+
+label.custom-radio-button input[type="radio"]:checked ~ .helping-el:after
+    background-color: #68b738
+    border-radius: 50%
+    content: " "
+    font-size: 33px
+    height: 20px
+    left: 10px
+    position: absolute
+    top: 10px
+    width: 20px
+
+    // Стили для checkbox кнопок
+
+label.custom-checkbox-button input[type="checkbox"]
+      opacity: 0
+      margin: 0px
+
+
+label.custom-checkbox-button input[type="checkbox"] ~ .helping-el
+        background-color: #FFFFFF
+        border: 1px solid #d6d6d6
+        display: inline-block
+        margin-right: 7px
+        padding: 20px
+        position: relative
+        left: -13px
+
+
+
+label.custom-checkbox-button input[type="checkbox"]:checked ~ .helping-el
+        border: 1px solid #d6d6d6
+
+
+label.custom-checkbox-button input[type="checkbox"]:checked ~ .helping-el:after
+
+
+        color: #68b738
+        content: ""
+        border-left: 1px solid #68b738
+        border-bottom: 1px solid #68b738
+        font-size: 33px
+        height: 20px
+        left: 10px
+        position: absolute
+        top: 10px
+        width: 20px
+        height: 10px
+        -webkit-transform: rotate(-45deg)
+        -moz-transform: rotate(-45deg)
+        -o-transform: rotate(-45deg)
+        -ms-transform: rotate(-45deg)
+        transform: rotate(-45deg)
+
+// Стили для text поля
+#data-1 label
+    margin: 0px 0px
+    margin-bottom: 20px
+
+    display: flex
+#data-2 label
+    margin: 0px 0px
+    margin-bottom: 27px
+
+    display: flex
+
+#section-4 #data-2 label
+        margin: 0px 0px
+        margin-bottom: 20px
+        width: 25%
+        float: left
+        display: flex
+
+
+#data-1 label:last-child
+
+    margin-bottom: 0px
+
+input[type="text"], input[type="email"], input[type="number"]
+    background-color: #FFFFFF
+    border: 1px solid #d6d6d6
+    width: 100%
+    display: inline-block
+    margin-right: 0px
+    padding: 13px
+    position: relative
+    margin-left: 10px
+
+textarea
+    background-color: #FFFFFF
+    border: 1px solid #d6d6d6
+    width: 100%
+    height: 170px
+    font-size: 22px
+    display: inline-block
+    margin-right: 0px
+    padding: 13px
+    position: relative
+    margin-left: 10px
+
+.custom-text .label-text
+   top: 14px
+   position: relative
+.custom-radio-button .label-text
+   top: 20px
+   position: relative
+
+input[type="submit"]
+  background: #68b738
+  padding: 10px 10px
+  width: 50%
+  color: white
+  font-family: Oswald, sans-serif
+  text-transform: uppercase
+  font-weight: 300
+
+.dop-block
+  display: inline-block
+  width: 100%
+  margin-bottom: 30px
+.dop-block .label-text
+  top: 5px
+
+.dop-block-2
+  margin-top: 20px
+
+
+.label-text
+  top: 14px
+  position: relative
+
+.submit-text
+  font-family: Arial, sans-serif
+  font-size: 16px
+  text-transform: none
+
+
+
+// Стили для заголовков
+.title-min
+ position: relative
+ top: -80px
+ background: white
+ padding: 0px 40px
+ left: -40px
+ font-size: 1.8em
+ text-transform: none
+ display: block
+
+//стили для namber
+.custom-number
+ display: none
+ width: 100%
+ float: right
+
+.display-blok
+  display: flex
+
+.display-none
+  display: none
+
+@import 'media'
